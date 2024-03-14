@@ -1,10 +1,36 @@
+.cardContainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
-  height: 20rem;
-  background-color: #fefefe;
-  border-radius: 10;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin-right: 2rem;
+  padding-bottom: 2rem;
 }
 
 .cardImage {
-  width: 10rem;
-  height: auto;
+  width: 90%;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.card h2 {
+  width: 100%;
+  margin-left: 3rem;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  width: 80%;
+  margin-bottom: 2rem;
 }

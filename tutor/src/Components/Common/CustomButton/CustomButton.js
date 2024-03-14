@@ -1,9 +1,13 @@
 import React from "react";
 import "./CustomButton.css";
 
-const CustomButton = ({ title, onPress, accesibilityLabel }) => {
+const CustomButton = ({ title, onPress, accesibilityLabel, cardButton }) => {
   return (
-    <button className="button" onPress={onPress} aria-label={accesibilityLabel}>
+    <button
+      className={cardButton ? "cardButton" : "button"}
+      onPress={onPress}
+      aria-label={accesibilityLabel}
+    >
       {title}
     </button>
   );
