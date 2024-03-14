@@ -1,0 +1,13 @@
+.backgroundColorRevisionContainer {
+  width: 100vw;
+  background-color: #efefef;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.revisionContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}

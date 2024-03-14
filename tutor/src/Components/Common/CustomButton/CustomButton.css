@@ -1,0 +1,13 @@
+.button {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  height: 2.5rem;
+  background-color: #3538e1;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}

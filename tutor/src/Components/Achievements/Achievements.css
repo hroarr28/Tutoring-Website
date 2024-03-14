@@ -1,0 +1,58 @@
+.achievementsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-bottom: 2rem;
+}
+
+.achievementsBoxesContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.achievementsSquare {
+  border: 3px solid #efefef;
+  width: 10rem;
+  height: 6rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-right: 4rem;
+}
+
+.achievementsSquareContent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.achievementsSquare p {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+
+.achievementsSquareText {
+  display: flex;
+  align-items: center;
+}
+
+.individualText {
+  font-family: "Roboto Slab", serif;
+  color: #e6682c;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.h3Text {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,18 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 2rem;
+  background-color: #e6682c;
+}
+
+.banner .textContainer a {
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+}
