@@ -8,8 +8,8 @@
 .containerBody {
   display: flex;
   flex-direction: row;
-  margin-right: 20rem;
-  margin-left: 20rem;
+  margin-right: 20%;
+  margin-left: 20%;
   background-color: #efefef;
 }
 
@@ -38,13 +38,15 @@
 
 .tutorImage {
   margin-top: 3rem;
-  width: 25rem;
+  width: 100%;
+  max-width: 60rem;
   height: auto;
 }
 
 .bodyHeadline {
   font-size: 40px;
-  width: 90%;
+  width: 100%;
+  max-width: 35rem;
 }
 
 .bodyText {
@@ -57,4 +59,8 @@
   justify-content: center;
   width: 100%;
   margin-left: 1rem;
+}
+
+.potential {
+  color: #e6682c;
 }

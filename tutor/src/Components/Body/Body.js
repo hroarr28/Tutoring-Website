@@ -9,8 +9,8 @@ const Body = () => {
       <div className="containerBody">
         <div className="containerLeftBody">
           <h1 className="bodyHeadline">
-            Unlock Your Child's Potential with Our Cutting-Edge GCSE Revision
-            Courses
+            Unlock Your Child's <span className="potential">Potential</span>{" "}
+            with Our Cutting-Edge GCSE Revision Courses
           </h1>
           <p className="bodyText">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
