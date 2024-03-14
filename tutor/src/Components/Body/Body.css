@@ -37,9 +37,9 @@
 }
 
 .tutorImage {
-  margin-top: 3rem;
+  margin-top: 2rem;
   width: 100%;
-  max-width: 60rem;
+  max-width: 50rem;
   height: auto;
 }
 
@@ -63,4 +63,57 @@
 
 .potential {
   color: #e6682c;
+}
+
+.thumbsUp {
+  width: 100%;
+  max-width: 5rem;
+  height: auto;
+  margin-left: 0;
+}
+
+.stars {
+  display: flex;
+  width: 100%;
+  min-width: 5rem;
+  max-width: 5rem;
+  height: auto;
+  margin-top: 14px;
+}
+
+.thumbsUpContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.starsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.happyCustomersContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+
+.individualTextBody {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.individualTextBodySmaller {
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0;
 }
